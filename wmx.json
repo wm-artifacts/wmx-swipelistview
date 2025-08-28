@@ -1,0 +1,49 @@
+{
+  "name": "swipelistview",
+  "displayName": "Swipe List View",
+  "description": "A swipeable list view component for React Native using react-native-swipe-list-view.",
+  "iconUrl": "icon.svg",
+  "webSupport": true,
+  "props": {
+    "data": {
+      "name": "data",
+      "displayName": "Data",
+      "description": "Array of items to render in the list.",
+      "type": "object",
+      "isList": true,
+      "isRequired": true
+    },
+    "renderItem": {
+      "name": "renderItem",
+      "displayName": "Render Item",
+      "description": "Function to render each visible item.",
+      "type": "object"
+    },
+    "renderHiddenItem": {
+      "name": "renderHiddenItem",
+      "displayName": "Render Hidden Item",
+      "description": "Function to render hidden item (shown on swipe).",
+      "type": "object"
+    },
+    "onRowOpen": {
+      "name": "onRowOpen",
+      "displayName": "On Row Open",
+      "description": "Callback when a row is swiped open.",
+      "type": "object"
+    },
+    "keyExtractor": {
+      "name": "keyExtractor",
+      "displayName": "Key Extractor",
+      "description": "Function to extract unique key for each item.",
+      "type": "object"
+    },
+    "style": {
+      "name": "style",
+      "displayName": "Style",
+      "description": "Custom style for the list container.",
+      "type": "object"
+    }
+  },
+  "events": {},
+  "styles": {}
+} 
